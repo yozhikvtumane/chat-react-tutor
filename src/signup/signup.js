@@ -74,6 +74,8 @@ class signupComponent extends React.Component {
 					this.setState({ email: e.target.value})
 					break
 				case 'password':
+				console.dir(e.target);
+				
 					this.setState({ password: e.target.value})
 					break
 				case 'passwordConfirmation':
